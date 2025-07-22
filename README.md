@@ -4,12 +4,11 @@
 Analyze pizza sales data using SQL to uncover trends, identify high-performing products, and understand customer purchasing patterns over time.
 
 ## 🗂️ Dataset
-- **Source**: [Kaggle](https://www.kaggle.com/)
 - **Tables**:
-  - `orders` — Contains order timestamps
-  - `order_details` — Includes quantity and pizza IDs per order
-  - `pizzas` — Defines pizza size and price
-  - `pizza_types` — Contains names, categories, and ingredients
+  - `orders` —  order_id, date, time
+  - `order_details` — order_details_id, order_id, pizza_id, quantity
+  - `pizzas` — pizza_id, pizza_type_id, size, price
+  - `pizza_types` — pizza_type_id, name, category, ingredients
 
 ## 🛠️ Tools Used
 - Microsoft SQL Server
